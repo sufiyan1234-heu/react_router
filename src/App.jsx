@@ -5,7 +5,7 @@ import Movie from './pages/Movies'
 import Contact, { ContactData } from './pages/Contact'
 import AppLayout from "./components/layout/AppLayout";
 import ErrorPage from "./pages/ErrorPage";
-import { GetApiData } from "./api/GetApiData";
+// import { GetApiData } from "./api/GetApiData";
 import MovieDetail from "./components/UI/MovieDetail";
 import { GetMovieDetails } from "./api/GetMovieDetails";
 
@@ -29,8 +29,7 @@ const App = () => {
           },
           {
             path: '/movie',
-            element: <Movie />,
-            loader: GetApiData
+            element: <Movie />
           },
           {
             path: '/movie/:id',
