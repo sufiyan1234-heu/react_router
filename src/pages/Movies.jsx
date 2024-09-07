@@ -30,7 +30,7 @@ const Movies = () => {
 
   return (
     <>
-      <ul className="max-w-screen-xl flex flex-wrap items-start justify-center py-12 gap-10">
+      <ul className="max-w-screen-xl flex flex-wrap items-start justify-center py-12 gap-10 bg-black">
         {
           data &&
           data.map((curMovie) => {
